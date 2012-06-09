@@ -1,0 +1,847 @@
+
+/* CSS Document for ui.html*/
+div{
+	display:block;
+	}
+body{
+	min-height:900px;
+	background:url(../images/background.png) ;
+	height:100%;
+	font-family:Arial, eHelvetica, sans-serif;
+	font-size:12px;
+	margin:0px;
+	padding:0px;
+				/* At the center */
+	font-family:"΢���ź�";
+}
+body ul li{
+	list-style:none;
+	
+	}
+
+
+
+
+#index{
+	height:30px;
+	width: 100%;
+    text-align: left;
+    margin-top:0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+
+	}
+#logo{
+	width: 150px;
+	height: 34px;
+	position: fixed;
+	left:170px;
+	margin: 0 0 0 0;
+	background:url(../images/logo.png) no-repeat;
+	display:inline;
+	z-index: 101;
+	}
+#index ul
+{
+	
+    margin:0px;
+    padding:0px 330px;
+    list-style:none;
+    float:left;
+	display:inline;
+}
+
+#indexList {
+    width: 90%;
+   
+    display: block;
+    height: 29px;
+    line-height:29px;
+  /*  background-image:url(images/index.jpg);*/
+    background-repeat: repeat-x;
+    background-color:#999;
+    z-index: 100;
+    overflow: visible;
+    padding: 0 0 0 0;
+    position: fixed;
+    
+    color: #000000;
+    top:0px; /*Keep it at the top*/
+}
+#indexList li{
+	position:static;
+	display:inline;
+	padding:10px;
+	font-family:"΢���ź�";
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	}
+#aboutMe{
+	width: 150px;
+	height: 34px;
+	position: fixed;
+	left:500px;
+	margin: 0 0 0 0;
+	
+	display:inline;
+	z-index: 101;
+	
+	}
+#aboutMe ul{
+	position:fixed;
+    margin:0px;
+    padding:0px 430px;
+    list-style:none;
+    float:right;
+	display:inline;
+	font-family:"΢���ź�";
+	}
+#aboutMeList{
+	width: 80%;
+	height: 29px;
+	line-height:29px;
+	z-index: 103;
+	overflow: visible;
+   
+    position: fixed;
+   
+    color: #000000;
+    top:0px; /*Keep it at the top*/
+	}
+#aboutMeList li{
+	position:static;
+	display:inline;
+	padding:10px;
+	font-family:"΢���ź�";
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+#searchPanel{
+	width:  150px;
+	height: 34px;
+	position: fixed;
+	left:400px;
+	margin: 0 0 0 0;
+	
+	display:inline;
+	z-index: 103;
+	
+	}
+#searchPanel ul{
+	position:fixed;
+    margin:0px;
+    padding:0px  300px;
+    list-style:none;
+    float:right;
+	display:inline;
+	}
+#searchList{
+	width: 50%;
+	height: 29px;
+	line-height:29px;
+	z-index: 103;
+	overflow: visible;
+    padding: 0 0 0 0;
+    position: fixed;
+    
+    color: #000000;
+    top:0px; /*Keep it at the top*/
+	}
+#searchList li{
+	position:static;
+	display:inline;
+	padding: 0px;
+	font-family:"΢���ź�";
+	font-size:14px;
+	font-weight:bold;
+	color:#FFF;
+	}
+
+#navigation{
+	margin:0px; padding:0px;
+	list-style-type:none;
+	height:32px;
+	font-size:12px;
+}
+#navigation li{
+	text-align:center; width:130px; height:32px;
+	background:url(button1.jpg) repeat-x;
+	float:left;	
+}
+#navigation li a{
+	padding:10px 0px 10px 0px;
+	text-decoration:none;
+	display:block;
+}
+
+#navigation li a:hover{
+	color:#FFFFFF;
+	background:url(button2.jpg) no-repeat;
+}
+
+#container{
+	
+	
+	margin:0px auto;
+	width:950px;
+	position:relative;
+	
+	
+	
+	background:#62C8F8;
+	/*min-height:1500px;*/
+	height:100%;
+	overflow:hidden;/*make the container contain all subelements*/
+}
+
+#globallink{
+	width:950px; height:195px;	
+	margin:0px; padding:0px;
+	
+	background: #daeeff url(../images/banner.png) no-repeat ;
+	font-size:12px;
+	font-family:"΢���ź�";
+}
+#globallink ul{
+    list-style-type:none;
+	position:absolute;			
+	width:567px;
+	left:550px; top:175px;		
+	padding:0px; margin:0px;
+	font-family:"΢���ź�";
+}
+#globallink li{
+	float:left; 
+	text-align:center;
+	padding:0px 6px 0px 6px;	
+	
+}
+#globallink a:link, #globallink a:visited{
+	color:#004a87;
+	text-decoration:none;
+}
+#globallink a:hover{
+	color:#FFFFFF;
+	text-decoration:underline;
+}
+
+#parameter{
+	position:relative;
+	float:left;
+	width:230px;
+	padding:0px;
+	margin:0px;
+	font-family:"΢���ź�";
+}
+#parameter div#author{
+	text-align:left;
+	background:#FF6;	
+	margin-top:5px;
+	padding:5px 12px 0 0;
+	overflow:hidden;
+	height:220px;
+	
+}
+div#author p{
+	margin:10px 10px  0px 10px;
+	padding:3px 0px 3px 0px;
+	
+	
+	height:25px;
+	position:relative;
+	top:-20px;
+}
+div#author .mypic{
+	border:none;
+	padding:0px  0px  0px  20px;
+	margin:0px 0px 8px 0px;
+	
+}
+div#author dl{
+	margin:0;
+	}
+div#author .mydescription a{
+	float:right;
+	margin:0px 8px;
+	height:25px;
+	width:85px;
+	display:block;
+	color:#09F;	
+	font-family:"΢���ź�";
+	font-size:14px;
+	font-weight:bold;
+	}
+
+div#author .mydetail{
+	float:right;
+	margin:0px 8px;
+	position:relative;
+	top:-80px;	
+	width:85px;	
+	color:green;
+	font-family:"΢���ź�";
+	font-size:14px;	
+	}
+div#author .myfans{
+	position:relative;
+	top: -50px;	
+	left:-25px;
+	color:#0F0;	
+	font-family:"΢���ź�";
+	font-size:13px;
+	font-weight:bold;
+	margin:0 -10px 0  -10px;
+	width:290px;
+	
+	
+}
+div#author .myfans li{
+	border:none;
+	margin: 0;
+	padding-right:10px;
+	border-right:2px solid #6F9;
+	text-align:center;
+	float:left;
+	width:60px;
+	}
+div#blogBox .textBox{
+	width:600px;
+	position:relative;
+	left:20px;
+	border:none;
+	}
+div#blogBox .textBox textarea{
+	width:600px;
+	margin: 0 auto;
+	height:60px;
+	font-family:"΢���ź�";
+	font-size:16px;
+	padding:3px 5px;
+	border:none;
+	
+	background:#FFF;
+	overflow:hidden;
+	}
+div#blogBox .funBox{
+	width:600px;
+	height:40px;
+	position:relative;
+	top: -50px;
+	
+	margin: 0 0 0 0;
+	}
+div#blogBox .expression,.picture,.video,.music{
+	width: 60px;
+	height:25px;
+	float:left;
+	}
+
+
+div#blogBox .icon{
+	height:35px;	
+	width:35px;
+	float:left;
+	
+	position:relative;
+	top:40px;
+	left:20px;
+	margin-bottom:40px;
+	border:none;
+	cursor:pointer;
+	}
+div#blogBox #expression_icon{
+	background:url(../images/expressionMetro.png) no-repeat;
+	
+}
+div#blogBox #picture_icon{
+	background:url(../images/photoMetro.png) no-repeat;
+	
+	}
+div#blogBox #video_icon{
+	background:url(../images/videoMetro.png) no-repeat;
+	}
+div#blogBox #music_icon{
+	background:url(../images/musicMetro.png) no-repeat;
+	}
+div#blogBox .fun_text{
+	position:relative;
+	top:25px;
+	color:#06F;
+	font-size:14px;
+	}
+div#blogBox .fun_text:hover{
+	color:#6F9;
+	text-decoration:underline;
+	}
+div#blogBox img{
+	height:30px;
+	margin:10px 0 -10px 0;
+	}
+div#blogBox #sendBlog{
+	float:right;
+	position:relative;
+	top:30px;
+	width:50px;
+	height:60px;
+	border:none;
+	background:url(../images/twitter.png) no-repeat;
+	
+	cursor:pointer;
+	}
+div#blogBox .count{
+	float:right;
+	margin:40px 10px 0 0;
+	font-family:"΢���ź�";
+	color:white;
+	font-size:16px;
+	
+	}
+div#blogBox #remainNumber{
+	color:red;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	font-style:normal;
+	}
+div#blogtitle {
+	position:relative;
+	height:25px;
+	width:100%;
+	
+	
+	font-size:16px;
+	margin-bottom: 10px;
+	clear:both;
+	text-align:left;
+	position:relative;
+	top:-25px;
+	background-color:#E13636;
+	}
+
+div#blogtitle ul{
+	position:relative;
+	
+	width:100%;
+	padding: 0 0 0 0;
+	
+	}
+div#blogtitle ul li{
+	float:left;
+	position:relative;
+	margin:0 10px 0 0;
+	
+	
+	}
+div#blogtitle a:link{
+	color:white;
+	
+	}
+div#blogtitle .myblog .allblog .favourite{
+	width:60px;
+	font-size:14px;
+	color:white;
+	
+	height:25px;
+	margin: 0 0 0 0;
+	float:left;
+}
+div#blogtitle .myblog:visited,.allblog:visited,.favourite:visited{
+	color:white;
+	
+	}
+div#blogtitle a:hover{
+	color:#6F9;
+	
+	}
+div#allblogs ul#bloglist {
+	
+	width:100%;
+	margin: 0 0 0 -5px;
+	}
+div#allblogs ul#bloglist li{
+	
+	float:left;
+	line-height:20px;
+	margin: 0 0 20px 0 ;
+	position:relative;
+	top:-15px;
+	
+	left:-35px;
+	width:100%;
+	}
+.userphoto div{
+	float:left;
+	height:60px;
+	margin:0 0 0 10px;
+	padding:0;
+	
+	}
+.userphoto a{
+	float:left;
+	
+	}
+#bloglist li{
+	
+	min-height:60px;
+	background:#36729E;
+	border-bottom:2px dashed #999999;
+	padding: 0 0 5px 0;
+	}
+
+.blogitem div{
+	
+	float:left;
+	min-height:60px;
+	margin:0 0 -10px 0;
+	
+	
+	}
+
+.blogitem img {
+	border: 1px solid #D2D2D2;
+	height: 60px;
+	width: 60px;
+	margin: 0 20px 10px 0;
+}
+.blogmessage{
+	float:right;
+	width:560px;
+	border-bottom:none;
+	color:white;
+	font-size:18px;
+	}
+.blogauthor{
+	
+	height:25px;	
+}
+.blogauthor .author{
+	color:#FF3;
+	}	
+.blogauthor .author:hover{
+	color:#6F9;
+	}
+.bloginfo{
+	clear:both;
+	width:100%;
+	
+	padding:10px 0 0 0;
+	}
+.blogdate {
+	clear:both;
+	position:relative;
+	
+	float:left;
+	font-size:12px;
+	color:#999;
+	
+	}
+div.blogreply{
+	display:none;
+	background:#39BBEA;
+	width:100%;
+	min-height:25px;
+	margin:-20px 0 10px 0;
+	}
+div .blogreply .replytext{
+	width:500px;
+	height:21px;
+	margin-top:0px;
+}
+div .blogreply #replybutton{
+	
+	background:url(../images/addreply.png) no-repeat;
+	background-position:bottom;
+	height:26px;
+	width:25px;
+	
+	border:none;
+	cursor:pointer;
+	margin-right:1px;
+	float:right;
+	
+	}
+div.blogfunc {
+	position:static;
+	margin-top:3px;
+	
+	float:right;
+	height:22px;
+	
+	}
+div.blogfunc a{
+	color:#999;
+	
+	}
+div.blogfunc a:hover{
+	color:#6F9;
+	
+	}
+.blogitem{
+	font-size:16px;
+	color:#66C;
+	}
+.comment{
+	height:29px;
+	width:29px;
+	background:url(../images/comment.png) no-repeat;
+	cursor:pointer;
+	border:none;
+	}
+.forward{
+	height:29px;
+	width:29px;
+	background:url(../images/forward.png) no-repeat;
+	cursor:pointer;
+	border:none;
+	}
+#delete{
+	height:29px;
+	width:25px;
+	background:url(../images/delete.png) no-repeat;
+	cursor:pointer;
+	border:none;
+	}
+.forwardblog{
+	border:none;
+	clear:both;
+	background:#39BBEA;
+	
+	}
+.forwardblog .blogmessage div{
+	font-size:12px;
+	min-height:30px;
+	}
+.forwardblog .blogvideo{
+	min-height:410px;
+	z-index:10;
+	}
+
+div#author .secondLine{
+	position:relative;
+	top:-20px;
+	}
+
+#parameter div{
+	clear:both;
+	margin-top:10px;
+	position:relative;
+}
+#parameter div h4{					
+	background:url(leftbg.jpg) no-repeat;
+	font-size:12px;
+	padding: 6px 0px 5px 27px;
+	margin:0px;
+	
+}
+#parameter ul li{
+	list-style:none;
+	
+	
+	margin:5px 15px 0px 5px;
+	padding:0px;
+}
+#parameter div ul li{
+	padding:2px 3px 2px 5px;
+	background:url(icon1.gif) no-repeat 8px 7px;
+	border-bottom:2px solid #999999;		
+	
+}
+
+a:link, a:visited{
+	
+	text-decoration:none;
+}
+#parameter div ul li a:link{
+	color:white;
+	text-decoration:none;
+	
+}
+#parameter div ul li a:hover{
+	color:#008cff;
+	text-decoration:none;
+	
+}
+div#llinks{
+	position:relative;
+	top:-40px;
+	height:310px;
+	background:#A8C5B3;
+	}
+div#llinks ul{		
+	list-style:none outside none;
+	padding:0px;
+	margin: 10px  5px 10px 10px;
+	font-size:16px;
+}
+div#llinks ul li{
+	float:left;		
+	width:60px;		
+	background: none repeat scroll 0 0 transparent;
+	padding:0px;
+	border: medium none;
+	margin:0 6px 0 5px;
+	
+	text-align:center;
+}
+div#llinks .follower, div#llatest .latest,div#lfriend .friend{
+	color:#999;
+	font-size:14px;
+	margin:-15px 0 0 -10px ;
+	
+	}
+div#llatest{
+	background:#FF9000;
+	font-size:14px;
+	top:-40px;
+	}
+div#llatest ul{
+	padding-left:10px;
+
+}
+div#lfriend{
+	background:#97C024;
+	font-size:14px;
+	top:-40px;
+	
+	}
+div#lfriend ul{
+	padding-left:10px;
+
+}
+div#llinks .caption:link,div#llatest .article:link,div#lfriend .friendlink:link{
+	color:white;	
+	}
+div#llinks .caption:visited,div#llatest .article:visited,div#lfriend .friendlink:visited{
+	color:white;
+	text-decoration:none;
+	}
+div#llinks .caption:hover,div#llatest .article:hover,div#lfriend .friendlink:hover{
+	color:#6F9;
+	text-decoration:none;
+	}
+
+div#lcategory{
+	position:relative;
+	top: -40px;
+	left:0px;
+	
+	background:#EB9896;
+	
+}
+div#lcategory ul{
+	padding:10px;
+	margin:0 0 0 0px;
+	width:180px;
+	text-align:left;
+	}
+div#lcategory li,div#llatest li,div#lfriend li{
+	height:25px;
+	width:160px;
+	color:#09F;
+	}
+div#lcategory .function{	
+	font-size:16px;
+	
+	color:#09F;
+	}
+
+div#lcategory .function:hover{
+	color:#0F9;
+	}
+#main{
+	
+	float:left;
+	height:inherit;
+	position:relative;
+	top:190px;
+	min-height:900px;
+	font-size:12px;
+	margin:0px 20px 5px 20px;
+	width:650px;
+	font-family:"΢���ź�";
+	
+}
+#blogBox div,#globallink div,#parameter div{
+	
+	position:relative;
+	margin:25px 0px 25px 0px;
+}
+#blogBox{
+	background:#F3923C;
+	position:relative;
+	top:10px;
+	}
+#main div h3{
+	font-size:15px;
+	margin:0px;
+	padding:0px 0px 3px 0px;
+	border-bottom:1px dotted #999999;			/* light underline for each blog */
+}
+#main div h3 a:link, #main div h3 a:visited{
+	color:#662900;
+	text-decoration:none;
+}
+#main div h3 a:hover{
+	color:#0072ff;
+}
+#main p.author{
+	margin:0px;
+	text-align:right;
+	color:#888888;
+	padding:2px 5px 2px 0px;
+}
+#main p.content{
+	margin:0px;
+	padding:10px 0px 10px 0px;
+	font-family:"΢���ź�";
+}
+#footer{
+	clear:both;			/* To show the copyright information */
+	text-align:center;
+	background-color:#009F3C;
+	margin:0px; padding:0px;
+	color:#004a87;
+}
+#footer p{
+	margin:0px; padding:2px;
+	
+}
+#login{
+	float:left;
+	text-align:left;
+	font-family:"΢���ź�";
+}
+#login_control ul{
+	list-style-type:none;
+	position:absolute;			
+	width:467px;
+	left:400px; top:175px;		
+	padding:0px; margin:0px;
+	font-family:"΢���ź�";
+}
+#register{
+	background:url(../images/register.png) no-repeat;	
+}
+#search{
+	position:relative;
+	
+	bottom:4px;
+	height:17px;
+	color:#999;
+	font-weight:lighter;
+	
+}
+#searchButton{
+	
+	border:0;
+	position:relative;
+	top:3px;
+	
+	left:-28px;
+	height:24px;
+	
+	}
+

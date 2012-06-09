@@ -1,0 +1,80 @@
+/* CSS Document for register.html*/
+
+body {
+	
+	font-family:"Î¢ÈíÑÅºÚ";
+	font-size:16px;
+	background:url(../images/background2.jpg) ;
+	color:white;
+}
+fieldset {
+	font-size:16px;
+	border:#6F6;
+	width:490px;
+	background:#009F3C;
+	border:0;
+}
+#submit {
+	background:url(../images/login2.png) no-repeat;
+	width: 80px;
+	height:50px;
+	border:0px;
+	cursor:pointer;
+}
+td.label {
+	text-align:right;
+	width:175px;
+	font-size:16px;
+}
+td.form {
+	text-align:left;
+	width:350px;
+	font-size:14px;
+}
+div.submit {
+	width:200px;
+	text-align:right;
+	padding-top:10px;
+	padding-left:150px;
+	display:inline;
+}
+div.reset {
+	display:inline;
+	width:200px;
+	text-align:right;
+}
+.required {
+	font-weight:bold;
+	color:#ff0000;
+	font-size:20px;
+}
+span.small {
+	font-size:10px;
+}
+div.login {
+	text-align:center;
+}
+input[type=text], input[type=password], input[type=select] {
+	border-style:solid;
+	border-width:1px;
+	border-color:#6F6;
+	background-color:#f2f2f2;
+	font-size:20px;
+	height:25px;
+	width:180px;
+}
+select {
+	font-size:20px;
+	height:25px;
+	width:182px;
+}
+div#register {
+	margin:0 auto;
+  width:490px;
+}
+div#banner {
+	background:url(../images/registerBanner.png) no-repeat;
+	height:130px;
+	margin:0 0 10px 0;
+	width:100%;
+}

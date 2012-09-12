@@ -1,4 +1,4 @@
-
+@charset "utf-8";
 /* CSS Document for ui.html*/
 div{
 	display:block;
@@ -12,8 +12,7 @@ body{
 	margin:0px;
 	padding:0px;
 				/* At the center */
-	font-family:"΢���ź�";
-}
+	font-family:"微软雅黑";}
 body ul li{
 	list-style:none;
 	
@@ -38,6 +37,7 @@ body ul li{
 	position: fixed;
 	left:170px;
 	margin: 0 0 0 0;
+	padding-bottom:20px;
 	background:url(../images/logo.png) no-repeat;
 	display:inline;
 	z-index: 101;
@@ -73,7 +73,7 @@ body ul li{
 	position:static;
 	display:inline;
 	padding:10px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:14px;
 	font-weight:bold;
 	color:#FFF;
@@ -96,7 +96,7 @@ body ul li{
     list-style:none;
     float:right;
 	display:inline;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	}
 #aboutMeList{
 	width: 80%;
@@ -114,7 +114,7 @@ body ul li{
 	position:static;
 	display:inline;
 	padding:10px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:14px;
 	font-weight:bold;
 	color:#FFF;
@@ -124,7 +124,7 @@ body ul li{
 	width:  150px;
 	height: 34px;
 	position: fixed;
-	left:400px;
+	left:665px;
 	margin: 0 0 0 0;
 	
 	display:inline;
@@ -134,10 +134,11 @@ body ul li{
 #searchPanel ul{
 	position:fixed;
     margin:0px;
-    padding:0px  300px;
+    padding:0px  20px;
     list-style:none;
     float:right;
 	display:inline;
+	width:280px;
 	}
 #searchList{
 	width: 50%;
@@ -155,7 +156,7 @@ body ul li{
 	position:static;
 	display:inline;
 	padding: 0px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:14px;
 	font-weight:bold;
 	color:#FFF;
@@ -204,7 +205,7 @@ body ul li{
 	
 	background: #daeeff url(../images/banner.png) no-repeat ;
 	font-size:12px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #globallink ul{
     list-style-type:none;
@@ -212,7 +213,7 @@ body ul li{
 	width:567px;
 	left:550px; top:175px;		
 	padding:0px; margin:0px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #globallink li{
 	float:left; 
@@ -235,7 +236,7 @@ body ul li{
 	width:230px;
 	padding:0px;
 	margin:0px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #parameter div#author{
 	text-align:left;
@@ -251,9 +252,9 @@ div#author p{
 	padding:3px 0px 3px 0px;
 	
 	
-	height:25px;
+	
 	position:relative;
-	top:-20px;
+
 }
 div#author .mypic{
 	border:none;
@@ -271,27 +272,79 @@ div#author .mydescription a{
 	width:85px;
 	display:block;
 	color:#09F;	
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:14px;
 	font-weight:bold;
 	}
-
+#changeRelationForm{
+	width:30px;
+	display:inline;
+	position:absolute;
+	right:0px;
+	}
+#addrelation{
+	background:url(../images/addRelation.png) no-repeat;
+	width:30px;
+	height:28px;
+	border:none;
+	cursor:pointer;
+	}
+	
+#deleterelation{
+	background:url(../images/deleteRelation.png) no-repeat;
+	width:30px;
+	height:28px;
+	border:none;
+	cursor:pointer;
+	}
 div#author .mydetail{
 	float:right;
 	margin:0px 8px;
 	position:relative;
-	top:-80px;	
+	top:-110px;	
 	width:85px;	
 	color:green;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:14px;	
+	height:60px;
+	}
+	
+#changeswitch{
+	background:url(../images/changehead.png) no-repeat;
+	left:64px;
+	top:-29px;
+	width:16px;
+	height:13px;
+	position:relative;
+	
+	
+	}
+	
+#uploadimage{
+	display:none;
+	background-color:white;
+	position:relative;
+	top:-100px;
+	margin:0 0 -30px 10px;
+	padding: 0 0 0 18px;
+	
+	}
+#uploadfile{
+	width:90px;
+	float:left;
+	}
+#uploadbutton{
+	
+	float:right;
+	position:relative;
+	left:14px;
 	}
 div#author .myfans{
 	position:relative;
-	top: -50px;	
+	top: -85px;	
 	left:-25px;
 	color:#0F0;	
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:13px;
 	font-weight:bold;
 	margin:0 -10px 0  -10px;
@@ -318,7 +371,7 @@ div#blogBox .textBox textarea{
 	width:600px;
 	margin: 0 auto;
 	height:60px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	font-size:16px;
 	padding:3px 5px;
 	border:none;
@@ -395,7 +448,7 @@ div#blogBox #sendBlog{
 div#blogBox .count{
 	float:right;
 	margin:40px 10px 0 0;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	color:white;
 	font-size:16px;
 	
@@ -406,6 +459,8 @@ div#blogBox #remainNumber{
 	font-size:20px;
 	font-style:normal;
 	}
+#errormessage{
+	float:right;}
 div#blogtitle {
 	position:relative;
 	height:25px;
@@ -456,6 +511,11 @@ div#blogtitle a:hover{
 	color:#6F9;
 	
 	}
+	
+div#blogtitle a[class="myblog"]:hover{
+	color:#6F9;
+	
+	}
 div#allblogs ul#bloglist {
 	
 	width:100%;
@@ -494,8 +554,8 @@ div#allblogs ul#bloglist li{
 .blogitem div{
 	
 	float:left;
-	min-height:60px;
-	margin:0 0 -10px 0;
+	min-height:40px;
+	margin:0 0 0px 0;
 	
 	
 	}
@@ -515,42 +575,68 @@ div#allblogs ul#bloglist li{
 	}
 .blogauthor{
 	
-	height:25px;	
+	min-height:25px;	
+	width:100%;
+	overflow:hidden;
+	word-wrap:break-word;
 }
 .blogauthor .author{
 	color:#FF3;
+	width:30px;
 	}	
 .blogauthor .author:hover{
 	color:#6F9;
 	}
-.bloginfo{
+div .bloginfo{
 	clear:both;
 	width:100%;
-	
-	padding:10px 0 0 0;
+	height:20px;
+	padding:0 0 0 0;
 	}
-.blogdate {
+div .blogdate {
 	clear:both;
 	position:relative;
-	
+	min-height:20px;
 	float:left;
 	font-size:12px;
 	color:#999;
 	
+	}
+div.blogforward{
+	display:none;
+  
+}
+.forwardForm{
+	width:350px;
+	height:100px;
+
+}
+.forwardContent{
+	width:100%;
+	height:30px;
+
+}
+.forwardSubmit{
+	background:url(../images/forwardTwitter.png) no-repeat;
+	border:none;
+	height:26px;
+	width:26px;
+	float:right;
+	cursor:pointer;
 	}
 div.blogreply{
 	display:none;
 	background:#39BBEA;
 	width:100%;
 	min-height:25px;
-	margin:-20px 0 10px 0;
+	margin:-10px 0 10px 0;
 	}
 div .blogreply .replytext{
 	width:500px;
 	height:21px;
 	margin-top:0px;
 }
-div .blogreply #replybutton{
+div .blogreply .replybutton{
 	
 	background:url(../images/addreply.png) no-repeat;
 	background-position:bottom;
@@ -561,6 +647,59 @@ div .blogreply #replybutton{
 	cursor:pointer;
 	margin-right:1px;
 	float:right;
+	
+	}
+div .blogcomment{
+	
+	background-color:#BEBBEA;
+	overflow:hidden;
+	height:60px;
+	height:70px\9;
+	margin:8px 0 0 0;
+	width:100%;
+	padding:0 0 0 0;
+	
+	border-bottom:2px dashed white;
+	
+	
+	}
+div .blogcomment .blogauthor{
+	font-family:"微软雅黑";
+	width:100%;
+	min-height:50px;
+	}
+div .commentdate{
+	float:right;
+	font-family:"微软雅黑";
+	font-size:12px;
+	position:relative;
+	bottom:10px;
+	right:10px;
+	min-height:20px;
+	}
+	
+.deleteComment{
+	border:none;
+	background:url(../images/delete.png) no-repeat;
+	position:relative;
+	left:10px;
+	bottom:5px;
+	width:25px;
+	height:27px;
+	cursor:pointer;
+}
+
+.deleteCommentForm{
+	display:inline;
+
+}
+div .commenterrorbox{
+	display:none;
+	font-size:12px;
+	color:red;
+	min-height:20px;
+	
+	width:100%;
 	
 	}
 div.blogfunc {
@@ -590,6 +729,10 @@ div.blogfunc a:hover{
 	cursor:pointer;
 	border:none;
 	}
+.commentForm{
+	display:inline;
+	
+}
 .forward{
 	height:29px;
 	width:29px;
@@ -597,18 +740,18 @@ div.blogfunc a:hover{
 	cursor:pointer;
 	border:none;
 	}
-#delete{
+.delete{
 	height:29px;
 	width:25px;
 	background:url(../images/delete.png) no-repeat;
 	cursor:pointer;
 	border:none;
 	}
-.forwardblog{
+div .forwardblog{
 	border:none;
 	clear:both;
 	background:#39BBEA;
-	
+	padding-top:5px;
 	}
 .forwardblog .blogmessage div{
 	font-size:12px;
@@ -630,7 +773,7 @@ div#author .secondLine{
 	position:relative;
 }
 #parameter div h4{					
-	background:url(leftbg.jpg) no-repeat;
+	
 	font-size:12px;
 	padding: 6px 0px 5px 27px;
 	margin:0px;
@@ -645,7 +788,7 @@ div#author .secondLine{
 }
 #parameter div ul li{
 	padding:2px 3px 2px 5px;
-	background:url(icon1.gif) no-repeat 8px 7px;
+	
 	border-bottom:2px solid #999999;		
 	
 }
@@ -757,11 +900,11 @@ div#lcategory .function:hover{
 	height:inherit;
 	position:relative;
 	top:190px;
-	min-height:900px;
+	min-height:1000px;
 	font-size:12px;
-	margin:0px 20px 5px 20px;
+	margin:0px 20px 180px 20px;
 	width:650px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 	
 }
 #blogBox div,#globallink div,#parameter div{
@@ -796,7 +939,7 @@ div#lcategory .function:hover{
 #main p.content{
 	margin:0px;
 	padding:10px 0px 10px 0px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #footer{
 	clear:both;			/* To show the copyright information */
@@ -804,6 +947,7 @@ div#lcategory .function:hover{
 	background-color:#009F3C;
 	margin:0px; padding:0px;
 	color:#004a87;
+	
 }
 #footer p{
 	margin:0px; padding:2px;
@@ -812,7 +956,7 @@ div#lcategory .function:hover{
 #login{
 	float:left;
 	text-align:left;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #login_control ul{
 	list-style-type:none;
@@ -820,7 +964,7 @@ div#lcategory .function:hover{
 	width:467px;
 	left:400px; top:175px;		
 	padding:0px; margin:0px;
-	font-family:"΢���ź�";
+	font-family:"微软雅黑";
 }
 #register{
 	background:url(../images/register.png) no-repeat;	
@@ -828,8 +972,9 @@ div#lcategory .function:hover{
 #search{
 	position:relative;
 	
-	bottom:4px;
-	height:17px;
+	
+	bottom:7px\9;
+	height:18px;
 	color:#999;
 	font-weight:lighter;
 	
@@ -844,4 +989,19 @@ div#lcategory .function:hover{
 	height:24px;
 	
 	}
+#searchSubmit{
+	background:url(../images/SearchMetro.png) no-repeat;
+	border:none;
+	position:relative;
+	right:5px;
+	width:25px;
+	height:24px;
+	top:1px;
+
+}
+#searchForm{
+	display:inline;
+	width:50px;
+
+}
 

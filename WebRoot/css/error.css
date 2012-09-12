@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document for register.html*/
+
+body {
+	
+	font-family:"微软雅黑";
+	font-size:16px;
+	background:url(../images/violet.jpg) no-repeat;
+	color:violet;
+	
+}
+#errormessage{
+	width:80%;
+	margin: 0 auto;
+	font-size:20px;
+	text-align:center;
+}
